@@ -1,5 +1,5 @@
 .RECIPEPREFIX +=
-CC = arm-linux-gnueabihf-g++
+CC = arm-linux-gnueabihf-g++ mfp16-format=ieee
 CFLAGS = -lm -lrt -O2 -Ofast
 INCLUDE = -ITools
 
